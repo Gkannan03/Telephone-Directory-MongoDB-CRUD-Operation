@@ -5,7 +5,7 @@ Objective:
 
 Solution:
 
-Create a mongodb document called "Telephone_directory" and a colletion name called "Telephone_numebers_collection"
+Create a mongodb database called "Telephone_directory" and a colletion name called "Telephone_numebers_collection"
 
     from pymongo import MongoClient
     client=MongoClient("mongodb://localhost:27017/")
